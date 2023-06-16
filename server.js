@@ -17,17 +17,13 @@ var express = require("express");
 var path = require("path");
 var app = express();
 
-// app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('public'));
 
-
-// Use the express.urlencoded middleware to parse URL-encoded bodies
 app.use(express.urlencoded({ extended: true }));
 
-// Require your officeData module
 var officeData = require("./modules/officeData");
 
-// Initialize the data before starting the server
+
 officeData.initialize()
   .then(() => {
     // Routes
