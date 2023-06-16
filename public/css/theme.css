@@ -1,0 +1,54 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body, html {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+    background: rgb(35,154,235);
+    background: linear-gradient(90deg, rgba(35,154,235,1) 0%, rgba(171,237,59,1) 100%);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins', sans-serif;
+}
+
+audio {
+    display: block;
+    margin: 50px auto;
+}
+
+p {
+    color: #fff;
+    text-align: justify;
+    margin: 0 50px;
+    line-height: 1.6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-item-text {
+    color: #6c757d; /* Grey color from storefrontstyles.css */
+    text-align: left;
+    text-shadow: none; /* No text shadow */
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgba(35,154,235,1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .navbar .nav-link {
+    color: #fff;
+  }
+  
+  .navbar .nav-link:hover {
+    color: rgba(255,255,255,0.8);
+  }

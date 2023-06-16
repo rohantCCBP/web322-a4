@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Table Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/theme.css">
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="/home">My Storefront</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/audio">Audio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/list">List</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/storefront">Storefront</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/table">Table</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/video">Video</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<body>
+    <h1>Table Section</h1>
+    <h2>Favorite Books</h2>
+    <table>
+        <caption>Book Recommendations</caption>
+        <thead>
+            <tr>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">The Great Gatsby</td>
+                <td>F. Scott Fitzgerald</td>
+                <td rowspan="2">Classic</td>
+            </tr>
+            <tr>
+                <td>To Kill a Mockingbird</td>
+            </tr>
+            <tr>
+                <td>The Lord of the Rings</td>
+                <td>J.R.R. Tolkien</td>
+                <td>Fantasy</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Additional books and recommendations can be found at your local library.</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h2>Favorite Movies</h2>
+    <table>
+        <caption>Movie Recommendations</caption>
+        <thead>
+            <tr>
+                <th>Movie Title</th>
+                <th>Director</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">The Shawshank Redemption</td>
+                <td>Frank Darabont</td>
+                <td rowspan="2">1994</td>
+            </tr>
+            <tr>
+                <td>Pulp Fiction</td>
+            </tr>
+            <tr>
+                <td>The Dark Knight</td>
+                <td>Christopher Nolan</td>
+                <td>2008</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">More great movies await you at the nearest theater.</td>
+            </tr>
+        </tfoot>
+    </table>    
+    <p>This section showcases my favorite books and movies.</p>
+</body>
+  
+</html>
