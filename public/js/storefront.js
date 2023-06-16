@@ -83,19 +83,19 @@ window.onload = () => {
 
       const title = document.createElement('h5');
       title.textContent = grocery.title;
-      title.classList.add('card-item-text'); /* Assign the new class */
+      title.classList.add('card-item-text');
       title.style.marginBottom = "0";
       cardBody.appendChild(title);
 
       const description = document.createElement('p');
       description.textContent = grocery.description;
-      description.classList.add('card-item-text'); /* Assign the new class */
+      description.classList.add('card-item-text');
       description.style.marginTop = "0";
       cardBody.appendChild(description);
 
       const price = document.createElement('p');
       price.textContent = `Price: ${grocery.price}`;
-      price.classList.add('card-item-text'); /* Assign the new class */
+      price.classList.add('card-item-text');
       cardBody.appendChild(price);
 
       card.appendChild(cardBody);

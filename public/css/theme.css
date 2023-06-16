@@ -34,9 +34,9 @@ p {
 }
 
 .card-item-text {
-    color: #6c757d; /* Grey color from storefrontstyles.css */
+    color: #6c757d;
     text-align: left;
-    text-shadow: none; /* No text shadow */
+    text-shadow: none;
     margin: 0;
 }
 
